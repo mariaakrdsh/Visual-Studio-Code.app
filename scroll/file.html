@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "utf8" />
+        <title>Нескінчений scroll</title>
+    </head>
+    <body>
+        <div id="infinite-scroll">
+            <div>
+     <script>
+       for( let i = 0; i < 100; i++ )
+         document.write("<div>Нескінчений scroll</div>");
+     </script>
+           </div>
+        </div>
+        <script>
+       
+            window.addEventListener("scroll", function(){
+           
+                var block = document.getElementById('infinite-scroll');
+                var counter = 1;
+               
+                var contentHeight = block.offsetHeight;      
+                var yOffset       = window.pageYOffset;      
+                var window_height = window.innerHeight;      
+                var a            = yOffset + window_height;
+    
+                if(a >= contentHeight)
+                {
+                    block.innerHTML = block.innerHTML + "<div>Нескінчений scroll</div>";
+                }
+            });
+           
+        </script>
+    </body>
+</html>

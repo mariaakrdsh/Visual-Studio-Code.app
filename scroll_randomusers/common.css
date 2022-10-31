@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(142, 89, 150, 0.464);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(216, 9, 133, 0.464);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(176, 94, 158);
+  }
+  .show {
+    display: block !important;
+  }
+  .hide {
+    display: none;
+  }
+  .scrollUp {
+    background: rgb(219, 219, 219);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+  }

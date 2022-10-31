@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../bottons"
+		},
+		{
+			"path": "../Contents"
+		},
+		{
+			"path": "../scroll"
+		},
+		{
+			"path": "../snake_game"
+		},
+		{
+			"path": "../infinite-scroll"
+		},
+		{
+			"path": "../scroll_2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bottons"
+	}
+}
